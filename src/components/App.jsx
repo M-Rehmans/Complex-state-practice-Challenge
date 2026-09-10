@@ -10,7 +10,7 @@ function App() {
     const [name, value] = event.target
     setContact((prevValue)=>{
       return {
-        ...prev,
+        ...prevValue,
         name: value
       }
     })

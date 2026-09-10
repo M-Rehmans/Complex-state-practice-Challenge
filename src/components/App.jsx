@@ -9,7 +9,9 @@ function App() {
   function handleContact(event) {
     const [name, value] = event.target
     setContact((prevValue)=>{
-      
+      return {
+        
+      }
     })
   }
 

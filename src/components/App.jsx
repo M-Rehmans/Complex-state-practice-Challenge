@@ -6,7 +6,12 @@ function App() {
     lName: "",
     email: "",
   });
- 
+  function handleContact(event) {
+    const [name, value] = event.target
+    setContact((prevValue)=>{
+      
+    })
+  }
 
   return (
     <div className="container">

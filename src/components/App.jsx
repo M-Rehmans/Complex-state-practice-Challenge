@@ -6,30 +6,7 @@ function App() {
     lName: "",
     email: "",
   });
-  function handleContact(event) {
-    var { name, value } = event.target;
-    setContact((prev) => {
-      if (name === "fName") {
-        return {
-          fName: value,
-          lName: contact.lName,
-          email: contact.email,
-        };
-      } else if (name === "lName") {
-        return {
-          fName: contact.fName,
-          lName: value,
-          email: contact.email,
-        };
-      } else if (name === "email") {
-        return {
-          lName: contact.lName,
-          fName: contact.fName,
-          email: value,
-        };
-      }
-    });
-  }
+ 
 
   return (
     <div className="container">

@@ -11,7 +11,7 @@ function App() {
     setContact((prevValue)=>{
       return {
         ...prevValue,
-        name: value
+        [name]: value,
       }
     })
   }
